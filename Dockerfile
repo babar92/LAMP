@@ -1,5 +1,5 @@
-FROM ubuntu:14.04
-MAINTAINER Maestrano <it@maestrano.com>
+FROM debian:jessie
+MAINTAINER Babar92 <calignula@gmail.com>
 
 # Install Ansible
 RUN apt-get -y update &&  \
