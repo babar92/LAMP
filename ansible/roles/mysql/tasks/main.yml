@@ -67,9 +67,9 @@
     - ::1
     - localhost
 
-- name: MySQL | Remove the MySQL test database
+- name: MySQL | Create db called metron
   mysql_db:
     login_user: root
     login_password: "{{ mysql_root_password }}"
-    db: test
-    state: absent
+    name: metron
+    state: present
