@@ -1,0 +1,8 @@
+- name: Add the user exploitation with uid 6000
+  user:
+    name: exploitation
+    uid: 6000
+    group: devops
+    shell: /bin/bash
+    append: yes
+
