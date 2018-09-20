@@ -1,4 +1,4 @@
-# Build Maestrano LAMP stack based on Ubuntu 14.04
+# Build LAMP stack based on Debian Jessie
 
 [![Build Status](https://travis-ci.org/maestrano/docker-lamp.svg?branch=develop)](https://travis-ci.org/maestrano/docker-lamp)
 
